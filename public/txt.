@@ -1,0 +1,12 @@
+const [isMobil, setIsMobil] = useState(false)
+
+ <ul className={isMobil ? "nav-list-mobile" : "nav_list"}
+            onClick={() => setIsMobil(false)}
+            >
+
+
+ <button className='mobile-menu-icon'
+            onClick={() => setIsMobil(!isMobil)}
+            >
+            {isMobil ?<i className='fas fa-times'></i> : <i className='fas fa-bars'></i>}   
+</button>
