@@ -1,0 +1,208 @@
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background: linear-gradient(200deg, #1D1D1D,  #000000c4); */
+    background: url(../images/footer-brlawgani.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_header{
+    margin-bottom: 50px;
+}
+
+.footer_header h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.footer_header p{
+    color: #ffffff80;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer_header button {
+    border: 1px solid transparent;
+    padding: 7px 18px;
+    background: #004267;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer_header button:hover{
+    transform: scale(1.1);
+}
+
+.footer_foter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer_item{
+    margin-left: 50px;
+}
+
+.footer_links h1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.footer_link{
+    border: 1px solid transparent;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.footer_link:hover{
+    background: #0E0E0E;
+}
+
+.footer_right{
+    display: flex;
+    align-items: center;
+}
+
+.footer_right div{
+    margin: 0 14px;
+    padding: 8px;
+    background: #0E0E0E;
+    transition: .3s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer_right i{
+    color: #fff;
+    font-size: 20px;
+    transition: .3s;
+
+}
+
+.footer_right div:hover{
+    background: #fff;
+}
+
+.footer_right .instagram:hover i {
+    color: #ff0000;
+} 
+
+.footer_right .telegram:hover i {
+    color: #229ED9;
+} 
+
+.footer_right .facebook:hover i {
+    color: 	#4267B2;
+}
+
+/* responsivee */
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    .footer_list{
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        margin: 0;
+    }
+
+    .footer_item{
+        margin: 1px 0px;
+
+    }
+  }
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .footer_right{
+        flex-direction: column;
+    }
+
+    .footer_right div{
+        margin: 5px 0;
+    }
+  
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
