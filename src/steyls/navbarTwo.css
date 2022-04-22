@@ -1,0 +1,361 @@
+.navbar1{
+    transition: .5s;
+    padding: 10px 0;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    background: #00000066;
+    width: 100%;
+}
+
+.nav2{
+    position: absolute;
+    padding: 10px 0;
+    position: fixed;
+    backdrop-filter: blur(25px);
+    background: #7d7a7a51;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_list2{
+    display: flex;
+    align-items: center;
+}
+
+.nav2 .nav_links2 h1{
+    color: #000;
+}
+
+.nav_links2 h1{
+    transition: .5s;
+    color: #ffff;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.nav_link2{
+    color: #ffffff80;
+    margin-left: 50px;
+    transition: .3s;
+}
+
+.nav2 .nav_link2{
+    color: #000;
+    font-weight: 500;
+}
+
+.nav_link2:hover{
+    color: #ffff;
+}
+
+.nav_box2{
+    display: flex;
+    align-items: center;
+}
+
+.nav_box2 button{
+    margin: 0 10px;
+}
+
+.nav_box2 a{
+    color: #ffff;
+}
+
+.nav2 .nav_box2 a{
+    color: #000;
+}
+
+.btn_nav2:hover{
+    transform: scale(1.1);
+}
+
+.btn_nav2{
+    cursor: pointer;
+    letter-spacing: 1px;
+    background: transparent;
+    padding: 7px 14px;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 3px;
+    transition: .5s;
+    background: #004267;
+}
+
+.nav2 .btn_nav2{
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.img_nav_btn{
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_nav_btn::before{
+    position: absolute;
+    content: "";
+    inset: -2px 12px;
+    background: linear-gradient(215deg, #00ccff, #d400d4);
+    transition: .3s;
+    animation: anime 2s linear infinite;
+}
+
+.img_nav_btn:hover::before{
+    inset: -2px 0px;
+}
+
+@keyframes anime{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.img_nav_btn::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #000000;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.img_nav_bt2{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    inset: 4px;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_nav_bt2 img {
+    height: 100%;
+    width: 100%;
+}
+
+    /* buuton bosilgandigi holadi containerni */
+
+
+.mobile-menu-icon{
+    border: none;
+    padding: 5px 10px;
+    display: none;
+    font-size: 22px;
+}
+
+.container-mobile .mobile-menu-icon{
+    font-size: 25px;
+    padding: 5px 15px;
+}
+
+.container-mobile.mobile-menu-icon:hover{
+    background: #000;
+    color: #fff;
+}
+    
+.navbar1 .mobile-menu-icon i{
+    color: #fff;
+    transition: .3s;
+}
+    
+.nav2 .mobile-menu-icon i{
+    color: #000;
+    transition: .3s;
+}
+
+nav .container-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-mobile .nav_links2 h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background: none;
+}
+
+.nav-list-mobile .fff{
+    background: transparent;
+}
+
+.nav-list-mobile li{
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    background: #dcd9d926;
+    padding-right: 25px;
+    padding-left: 0px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.nav-list-mobile li:hover{
+    background: #000;
+    color: #fff;
+}
+
+.nav-list-mobile li:hover .nav_link2{
+    color: #fff;
+}
+
+.container-mobile .nav_box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-mobile .nav_box2 .btn_nav2{
+   display: none;
+}
+
+.container-mobile .nav_icon2{
+    display: none;
+}
+
+.container-mobile .btn_nav.active{
+    display: none;
+}
+
+.container-mobile .img_nav_btn{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.container-mobile .img_nav_btn::before{
+    inset: -2px 25px;
+}
+
+.container-mobile .img_nav_bt2{
+    inset: 10px;  
+}
+
+.container-mobile .img_nav_btn::after{
+    content: "";
+    inset: 7px;
+}
+
+.container-mobile .img_nav_btn:hover::before{
+    inset: -2px 0px;
+}
+
+/* tugadii */
+
+
+/* responsive */
+
+
+@media (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+  
+}
+  
+@media (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    .nav_list2{
+        display: none;
+    }
+
+    .nav-list-mobile{
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .nav_icon2, .btn_nav2{
+        display: none;
+    }
+  }
+  
+  
+  @media(max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media(max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media(max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
+  
+  
+  @media (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media (max-width:400px){
+    
+    .container{
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
