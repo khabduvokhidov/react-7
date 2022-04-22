@@ -1,11 +1,11 @@
 footer{
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background: linear-gradient(200deg, #1D1D1D,  #000000c4); */
     background: url(../images/footer-brlawgani.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .footer_header{
@@ -83,7 +83,7 @@ footer{
     align-items: center;
 }
 
-.footer_right div{
+.footer_right a{
     margin: 0 14px;
     padding: 8px;
     background: #0E0E0E;
@@ -99,7 +99,7 @@ footer{
 
 }
 
-.footer_right div:hover{
+.footer_right a:hover{
     background: #fff;
 }
 
@@ -143,6 +143,10 @@ footer{
     .footer_item{
         margin: 1px 0px;
 
+    }
+
+    footer{
+      width: 100%;
     }
   }
   

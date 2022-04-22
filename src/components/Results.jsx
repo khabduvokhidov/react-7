@@ -28,7 +28,7 @@ function Results() {
                     </div>
                 </div>
             </div>
-        </div>
+
         <div className="about">
             <div className="about_photo">
                 <img src={resultPhoto} alt="photo" className="about_img" />
@@ -40,6 +40,7 @@ function Results() {
                 <br />
                 <p>We create digital experiences fully crafted to support your brand. Leveraging on web standards, usability and best practices, the results are fast, responsive, and mobile-optimized. We develop sites to deliver online</p>
             </div>
+        </div>
         </div>
     </section>
   )

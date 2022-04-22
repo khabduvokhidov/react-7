@@ -53,17 +53,19 @@ export default function Footer() {
             </div>
             
             <div className="footer_right">
-                <div className="instagram">
-                  <i className="fa-brands fa-instagram"></i>  
-                </div>
+                
+                <a href="https://instagram.con"   className='instagram'>
+                  <i className="fa-brands fa-instagram"></i> 
+                </a> 
 
-                <div className="telegram">
+                <a href="https://t.me" className='telegram'>
                   <i className="fa-brands fa-telegram"></i>  
-                </div>
+                </a>
 
-                <div className="facebook">
+                <a href="https://facebook.com" className='facebook'>
                   <i className="fa-brands fa-facebook"></i>  
-                </div>
+                </a>
+
             </div>
 
           </div>
