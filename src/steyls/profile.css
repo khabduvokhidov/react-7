@@ -1,0 +1,37 @@
+.profile{
+    padding-top: 150px;
+}
+
+.profile_nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.profile_left{
+    display: flex;
+    align-items: center;
+}
+
+.profile_left div{
+    margin-left: 14px;
+}
+
+.profile_left h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #0b0b0b;
+}
+
+.profile_left p{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .20px;
+}
+
+.profile_left img{
+    position: relative;
+    width: 50px;
+    border-radius: 50%;
+}
