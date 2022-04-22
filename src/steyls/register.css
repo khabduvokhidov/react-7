@@ -1,0 +1,413 @@
+.register{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.register_nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.register_link{
+    font-size: 20px;
+    color: #000;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+    margin-left: 20px;
+}
+
+.register_link i{
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.register_link:hover{
+    transform:translateX(-7px);
+}
+
+.register_photo{
+    width: 120px;
+    margin: auto;
+}
+
+.register_box{
+    background: #fff;
+    margin: auto;
+    height: 310px;
+    box-shadow: 15px 15px 60px 2px rgb(180, 176, 176);
+    width: 300px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.register_box_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #C4C4C4;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.register_box_nav h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bo{
+    color: #004267;
+}
+
+.register_box_nav .bo::after{
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #004267;
+    width: 130px;
+    top: 100%;
+    right: 57%;
+}
+
+.register_box_inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.register_box_inputs p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #979797;
+    margin-bottom: 5px;
+}
+
+.register_box_inputs input{
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    background: #e9e6e6;
+    outline: 1px solid transparent;
+    border: none;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.register_box_inputs a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #004267;
+    margin-bottom: 20px;
+}
+
+.register_box_inputs .bobutton button{
+    width: 100%;
+    padding: 8px 10px;
+    background: #004267;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* animation animatons */
+
+.animation_register{
+    position: absolute;
+    top: 30%;
+    background: #c2bdbd28;
+    width: 100px;
+    height: 100px;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05),
+                15px 25px 10px rgba(0,0,0,0.01),
+                15px 20px 20px rgba(0,0,0,0.05),
+                inset -10px -10px 15px rgb(255, 255, 255,0.9)
+    ;
+    animation-name: register;
+}
+
+.animation_register3{
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    background: #c2bdbd28;
+    width: 100px;
+    height: 100px;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05),
+                15px 25px 10px rgba(0,0,0,0.01),
+                15px 20px 20px rgba(0,0,0,0.05),
+                inset -10px -10px 15px rgb(255, 255, 255,0.9)
+    ;
+    animation-name: register3;
+}
+
+.animation_register::before{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 52% 28% 17% 43% / 30% 43% 47% 60%;
+}
+
+.animation_register3::before{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 42% 48% 47% 63% / 40% 23% 17% 10%;
+}
+    
+
+.animation_register2{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    background: #c2bdbd28;
+    width: 100px;
+    height: 100px;
+    border-radius: 40% 40% 14% 63% / 45% 52% 58% 55%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05),
+                15px 25px 10px rgba(0,0,0,0.01),
+                15px 20px 20px rgba(0,0,0,0.05),
+                inset -10px -20px 15px rgb(255, 255, 255,0.9)
+    ;
+    animation-name: register2;
+}
+
+.animation_register2::before{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 42% 58% 37% 63% / 30% 43% 67% 60%;
+}
+
+.animation_register4{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    background: #c2bdbd28;
+    width: 100px;
+    height: 100px;
+    border-radius: 40% 40% 14% 63% / 45% 52% 58% 55%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05),
+                15px 25px 10px rgba(0,0,0,0.01),
+                15px 20px 20px rgba(0,0,0,0.05),
+                inset -10px -20px 15px rgb(255, 255, 255,0.9)
+    ;
+    animation-name: register4;
+}
+
+.animation_register4::before{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;
+}
+
+.animation_register,
+.animation_register2,
+.animation_register3,
+.animation_register4{
+    z-index: -1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+@keyframes register {
+    0%{
+        transform: translate(120px);
+    }
+    
+    25%{
+        transform: translateY(-100px);
+    }
+    
+    50%{
+        transform: rotate(160deg);
+        /* transform: scale(10); */
+    }
+    
+    75%{
+        transform: translateX(-100px);
+
+    }
+
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+@keyframes register3 {
+    0%{
+        transform: translate(120px);
+    }
+    
+    25%{
+        transform: rotateX(160deg);
+    }
+    
+    50%{
+        /* transform: rotate(160deg); */
+        transform: scale(8);
+    }
+    
+    75%{
+        transform: translateX(100px);
+
+    }
+
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes register2{
+    0%{
+        transform: translate(-150px);
+    }
+    
+    25%{
+        transform: translateY(-150px);
+    }
+    
+    50%{
+        transform: rotate(240deg);
+        /* transform: scale(10); */
+    }
+    
+    75%{
+        transform: translateX(-100px);
+
+    }
+
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+@keyframes register4{
+    0%{
+        transform: translateX(150px);
+    }
+    
+    25%{
+        transform: translateY(150px);
+    }
+    
+    50%{
+        transform:rotateZ(180deg);
+        /* transform: scale(10); */
+    }
+    
+    75%{
+        transform: translateX(-100px);
+
+    }
+
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+
+
+
+
+/* RESPONSIVEE */
+
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+
+  }
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
