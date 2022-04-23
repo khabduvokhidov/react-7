@@ -162,6 +162,7 @@ function Order() {
                 </ul>
               </div>
           </div>
+
         </div>
 
         <div className="upload">
@@ -169,12 +170,12 @@ function Order() {
           <div className="upload-box">
               <div className="upload_img">
                 <img src={orderFoto1} alt="photo" className="upload_image" />
+
                 <img src={orderFoto2} alt="photo" className="upload_image" />
                 <img src={orderFoto3} alt="photo" className="upload_image" />
               </div>
               <div className="upload_browse">
-                  <p className="droptag">Drag or drop reference image here </p>
-                  <p>or</p>
+                  <p className="droptag">Drag or drop reference image here or </p>
                   <a href="" className="browse">Browse</a>
               </div>
           </div>
@@ -182,10 +183,12 @@ function Order() {
 
         <div className="deadline">
           <input type="date" className="deadline_input" />
-          <span>
+
+          <span className='none_checkbox'>
             <input type="checkbox" />
             <p>No fixe deadline</p>
           </span>
+          
           <label>
             <div className="deadline_icon"><i class="fa-solid fa-dollar-sign"></i>
             </div>
@@ -194,8 +197,8 @@ function Order() {
         </div>
 
         <span className="order-span">
-          <a href="" className="order_cancel">Cancel</a>
-          <a href="" className="order_start">Start project</a>
+          <a href="#" className="order_cancel">Cancel</a>
+          <a href="#" className="order_start">Start project</a>
         </span>
       </div>
     </section>

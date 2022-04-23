@@ -21,7 +21,7 @@ function Profile() {
           </div>
           <div className="profile_right">
             <Link to="/">
-              <i class="fa-solid fa-gear"></i> Settings
+              <i className="fa-solid fa-gear"></i> Settings
             </Link>
           </div>
         </div>
