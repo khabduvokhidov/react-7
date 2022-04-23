@@ -13,10 +13,16 @@ function Profile() {
       <div className="container">
         <div className="profile_nav">
           <div className="profile_left">
-            <img src={ozm} alt="" />
+
+            <div className="img_nav_btn3">
+              <a href='https://t.me/khabduvokhidov' className="img_nav_bt3">
+                  <img src={ozm} alt="" />
+              </a>
+            </div>
+
             <div>
               <h2>Biloliddin Abduvohiddov</h2>
-              <p>@Biloliddin1150.com</p>
+              <p>@khabduvokhidov</p>
             </div>
           </div>
           <div className="profile_right">

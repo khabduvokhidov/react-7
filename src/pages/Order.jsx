@@ -47,7 +47,7 @@ function Order() {
             <p className='select_text'>Select 3D skills</p>
             <i className="fa-solid fa-angle-up"></i>
             </div>
-              <div className={dropdown ? "none-drop" :"dropdown" }>
+              <div className={dropdown ? "dropdown" :"none-drop" }>
                 <ul className='drop_ul'>
                   <li className='drop_li'>
                     <span className='drop_span'>
@@ -110,6 +110,7 @@ function Order() {
                 </ul>
               </div>
           </div>
+          
           <div className="menu-bar2" >
             <div className="order_icon_text" onClick={ () =>setDropdown2(!dropdown2) }>
                 <p className='select_text'>Select 3D software</p>

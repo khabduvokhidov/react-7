@@ -207,7 +207,7 @@
 }
 .upload{
     max-width: 100%; 
-    margin: 0 auto;
+    margin:  0px auto;
     text-align: start;
     margin-top: 70px;
 }
@@ -258,10 +258,10 @@
 
 .deadline{
     width: 80%;
-    margin-left: 70px;
-    margin-top: 50px;
+    /* margin-left: 70px; */
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -275,7 +275,6 @@
 .none_checkbox{
     display: flex;
     align-items: center;
-    margin-right: 70px;
 }
 .deadline span input{
     width: 20px;
@@ -295,14 +294,20 @@
     height: 40px;
     font-size: 20px;
     font-weight: bolder;
-    padding: 10px 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 
 .deadline_icon{
+    background: #F2F2F2;
+    border-radius: 4px;
+    padding: 1px 7px;
     position: relative;
     overflow: hidden;
-    left: 7%;
-    top: -1px;
+    left: 11%;
+    top: -0.5px;
 }
 
 .deadline_icon{
@@ -439,7 +444,6 @@
     }
 
     .head{
-        border: 1px solid #000;
         width: 550px;
     }
   }
@@ -530,6 +534,14 @@
     .container{
       width: 400px;
       margin: 0 auto;
+    }
+
+    .menu-bar{
+        width: 100%;
+    }
+
+    .menu-bar2{
+        display: none;
     }
   
   }

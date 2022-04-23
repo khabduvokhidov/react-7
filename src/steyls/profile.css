@@ -30,8 +30,60 @@
     letter-spacing: .20px;
 }
 
-.profile_left img{
+.img_nav_btn3{
     position: relative;
+    outline: none;
+    cursor: pointer;
     width: 50px;
+    height: 50px;
+    background: #000000;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_nav_btn3::before{
+    position: absolute;
+    content: "";
+    inset: -2px 18px;
+    background: linear-gradient(215deg, #00ccff, #d400d4);
+    transition: .3s;
+    animation: anime 2s linear infinite;
+}
+
+.img_nav_btn3:hover::before{
+    inset: -2px 0px;
+}
+
+@keyframes anime{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.img_nav_btn3::after{
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #000000;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.img_nav_bt3{
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    inset: 4px;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_nav_bt3 img {
+    height: 100%;
+    width: 100%;
 }
