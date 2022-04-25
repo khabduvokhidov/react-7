@@ -1,0 +1,39 @@
+.partfolio{
+    padding-top: 100px;
+}
+
+.partfolio_box{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partfolio_box h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.partfolio_nav .partfolio_nav_link{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #9D9D9D;
+}
+
+.partfolio_nav_active{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #000;
+}
+
+.img_1{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.img_1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
