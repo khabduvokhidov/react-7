@@ -1,0 +1,153 @@
+.PaidCursor{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.PaidCursor .container h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.paid_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.paid_smail_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #00000012;
+    background: #FFFFFF;
+    box-shadow: 15px 20px 20px #0000001a;
+}
+
+.paid_smail_box h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paid_btn{
+    display: flex;
+    align-items: center;
+}
+
+.paid_btn span{
+    font-size: 12px;
+    color: #010101;
+    margin: 0 10px;
+}
+
+.paid_btn span img{
+    width: 10px;
+}
+
+.paid_btn button{
+    border: 1px solid #004267;
+    padding: 6px 10px;
+    background: #fff;
+    border-radius: 3px;
+    color: #004267;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.paid_btn button:hover{
+    background: #004267;
+    color: #fff;
+}
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+
+  }
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .paid_smail_box{
+        width: 40%;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .paid_smail_box{
+        width: 45%;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+}
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .paid_smail_box{
+        width: 100%;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
