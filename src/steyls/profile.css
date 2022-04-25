@@ -1,11 +1,13 @@
 .profile{
     padding-top: 150px;
+    margin-bottom: 100px;
 }
 
 .profile_nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    margin-bottom: 100px;
 }
 
 .profile_left{
@@ -87,3 +89,431 @@
     height: 100%;
     width: 100%;
 }
+
+.yourAdres{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yourAdres h3{
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.profile_animating{
+    background: #F9F9F9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #B5B5B5;
+    border-radius: 10px;
+}
+
+.animating_images{
+    display: flex;
+    align-items: center;
+}
+
+.animating_images img{
+    width: 150px;
+    margin: 0 10px;
+}
+
+.animation_text{
+    width: 300px;
+}
+
+.animation_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.animation_nav span{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #ADADAD;
+}
+
+.animation_nav span h4{
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+.animation_nav h3{
+    font-size: 22px;
+    color: #004267;
+    font-weight: 400;
+}
+
+.animation_footer{
+    display: flex;
+}
+
+.animation_color_left{
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
+
+.animation_color_left h6{
+    color: #575757;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.animation_color_left p{
+    font-size: 10px;
+    color: #BDBDBD;
+}
+
+.color_box_red{
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background: #ECECEC;
+    border: 1px solid #0000000d;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+.animation_btn{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+}
+
+.animation_btn_nav{
+    margin-bottom: 10px;
+}
+
+.animation_btn_nav button{
+    border: 1px solid transparent;
+    padding: 7px 24px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.animation_btn_nav_green{
+    background: #007C32;
+}
+
+.animation_btn_nav_blue{
+    background: #004267;
+}
+
+.animation_btn p{
+    font-size: 10px;
+    font-weight: 300;
+    color: #9D9D9D;
+}
+
+.animation_delet{
+    margin-top: 90px;
+    background: none;
+    border: none;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.red{
+    background: #D00018;
+    height: 100%;
+    animation-name: Reed;
+}
+
+.green{
+    background: #007C32;
+    height: 100%;
+    animation-name: grren;
+}
+
+.red{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+.red.a{
+    animation-name: Reed;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.red.b{
+    animation-name: Reed;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.green{
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+.green.b{
+    animation-duration: 5s;
+}
+
+@keyframes Reed{
+    0%{
+        width: 0%;
+    }
+
+    25%{
+        margin-left: 1%;
+    }
+
+    55%{
+        margin-left: 1%;
+    }
+
+    75%{
+        margin-left: 1%;
+    }
+
+    100%{
+        width: 100%;
+        margin-left: 100%;
+    }
+}
+
+@keyframes grren{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
+.green.a{
+    border-radius: 10px;
+    width: 40px;
+    animation-name: grreen;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+@keyframes grreen{
+    0%{
+        margin-left: 0%;
+    }
+
+    50%{
+        margin-left: 30%;
+    }
+
+    75%{
+        margin-left: 60%;
+    }
+
+    100%{
+        margin-left: 100%;
+    }
+}
+
+
+/* RESPONSIVEE */
+
+@media  (max-width:1235px){
+    .container{
+      width: 1135px;
+      margin: 0 auto;
+    }
+
+    .animation_btn_nav{
+        flex-direction: column;
+        align-content: flex-end;
+        text-align: end;
+    }
+
+    .animation_text{
+        margin-top: 20px;
+    }
+}
+
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+
+  
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    .profile_animating{
+        flex-direction: column;
+    }
+
+    .animation_text{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .animating_images{
+        justify-content:space-evenly;
+    }
+
+    .animating_images img{
+        width: 28%;
+    }
+
+    .animation_footer{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid #000;
+    }
+
+    .color_box_red{
+        width: 800px;
+    }
+
+    .animation_btn{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animation_delet{
+        margin-top: 40px;
+
+    }
+
+    .animation_btn p{
+        text-align: center;
+    }
+
+    .green.a{
+        width: 30%;
+    }
+
+  }
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 700px;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 600px;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 500px;
+    }
+  }
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 400px;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 300px;
+    }
+
+    .profile_left{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile_nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 45px;
+    }
+  
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .color_box_red{
+        width: 100%;
+    }
+  }
