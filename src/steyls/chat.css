@@ -1,0 +1,31 @@
+.chat{
+    padding-top: 100px;
+}
+
+.chat_box{
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+.chat_box p{
+    cursor: pointer;
+    font-size: 16px;
+    color: #979797;
+}
+
+.chat_box h1{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.chat_img_box{
+    width: 100%;
+}
+
+.chat_img_box img{
+    width: 100%;
+}
