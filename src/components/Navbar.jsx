@@ -39,7 +39,7 @@ function Navbar() {
               </li>
 
               <li className="nav_item">
-                <Link to="/" className="nav_link">
+                <Link to="/Partfolio" className="nav_link">
                     Portfolio
                 </Link>
               </li>
@@ -47,6 +47,12 @@ function Navbar() {
               <li className="nav_item">
                 <Link to="/Order" className="nav_link">
                     Order a project
+                </Link>
+              </li>
+
+              <li className="nav_item">
+                <Link to="/PaidCursor" className="nav_link">
+                    Paid courses
                 </Link>
               </li>
 

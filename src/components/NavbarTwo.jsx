@@ -39,7 +39,7 @@ function NavbarTwo() {
               </li>
 
               <li className="nav_item2">
-                <Link to="/" className="nav_link2">
+                <Link to="/Partfolio" className="nav_link2">
                     Portfolio
                 </Link>
               </li>
@@ -51,7 +51,7 @@ function NavbarTwo() {
               </li>
 
               <li className="nav_item2">
-                <Link to="/" className="nav_link2">
+                <Link to="/PaidCursor" className="nav_link2">
                     Paid courses
                 </Link>
               </li>

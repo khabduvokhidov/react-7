@@ -62,7 +62,7 @@ function Header() {
             </li>
 
              <li className="nav_item">
-                <Link to="/" className="nav_link">
+                <Link to="/Partfolio" className="nav_link">
                     Portfolio
                 </Link>
               </li>
@@ -74,7 +74,7 @@ function Header() {
               </li>
 
               <li className="nav_item">
-                <Link to="" className="nav_link">
+                <Link to="/PaidCursor" className="nav_link">
                     Paid courses
                 </Link>
               </li>
