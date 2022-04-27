@@ -27,25 +27,25 @@ export default function Footer() {
                 </li>
 
                 <li className="footer_item">
-                  <Link className="footer_link">
+                  <Link to="/" className="footer_link">
                       Home
                   </Link>
                 </li>
 
                 <li className="footer_item">
-                  <Link className="footer_link">
+                  <Link to="/Partfolio" className="footer_link">
                       Portfolio
                   </Link>
                 </li>
 
                 <li className="footer_item">
-                  <Link className="footer_link">
+                  <Link to="/Order" className="footer_link">
                       Order a project
                   </Link>
                 </li>
 
                 <li className="footer_item">
-                  <Link className="footer_link">
+                  <Link to="/PaidCursor" className="footer_link">
                       Paid courses
                   </Link>
                 </li>
