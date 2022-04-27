@@ -1,0 +1,36 @@
+.you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.you .container{
+    text-align: center;
+}
+
+.you .container img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.you .container h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.you .container button{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #004267;
+    padding: 7px 20px;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.you .container button:hover{
+    background: #004267;
+    color: #fff;
+}
