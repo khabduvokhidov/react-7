@@ -198,8 +198,14 @@ function Order() {
         </div>
 
         <span className="order-span">
-          <a href="#" className="order_cancel">Cancel</a>
-          <a href="#" className="order_start">Start project</a>
+        <Link to="/Partfolio">
+          <a className="order_cancel">Cancel</a>
+        </Link>
+            
+        <Link to="/YouWin">
+            <a className="order_start">Start project</a>
+        </Link>
+
         </span>
       </div>
     </section>
