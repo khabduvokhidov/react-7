@@ -64,7 +64,9 @@ function NavbarTwo() {
             </ul>
 
           <div className="nav_box2">
-            <a className='nav_icon2' href="#">en <i className="fa-solid fa-caret-down"></i></a>
+            <Link to="/Settings" className='nav_icon2'>
+              settings
+            </Link>
             <button className="btn_nav2">Order now</button>
 
 
