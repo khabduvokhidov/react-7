@@ -1,0 +1,156 @@
+.inputs_box{
+    margin-bottom: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #0000000D;
+    box-shadow: 10px 30px 60px #00000014;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.inputs_box_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.inputs_box .inputs_box_text{
+    position: relative;
+}
+
+.inputs_box .inputs_box_text input{
+    background: #F7F7F7;
+    height: 50px;
+    width: 90%;
+    padding: 0 35px;
+    border: 1px solid #0000000D;
+    border-radius: 5px;
+}
+
+.inputs_img{
+    position: absolute;
+    width: 20px;
+    right: 92.40%;
+}
+
+.inputs_box .inputs_box_text .inputs_box_photo{
+    position: absolute;
+    width: 25px;
+    left: 91.40%;
+}
+
+.inputs_box .inputs_box_text input::-webkit-input-placeholder{
+    letter-spacing: 2px;
+}
+
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+
+    
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+  } 
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .inputs_box .inputs_box_text input{
+        width: 93%;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+    
+  }
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .inputs_img{
+      right: 90.40%;
+    }
+
+    .inputs_box .inputs_box_text .inputs_box_photo {
+      left: 88.40%;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .inputs_img{
+        right: 90.40%;
+        width: 20px;
+    }
+  
+    .inputs_box .inputs_box_text .inputs_box_photo {
+        left: 88.40%;
+        width: 20px;
+    }
+    
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .inputs_img{
+        right: 84.40%;
+        width: 18px;
+    }
+  
+    .inputs_box .inputs_box_text .inputs_box_photo {
+        left: 84.40%;
+        width: 18px;
+    }
+  }
