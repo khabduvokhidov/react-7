@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Dengiz from "../images/dengiz.png"
 import shahar from "../images/shahar.png"
 import suvToshi from "../images/suvToshi.png"
@@ -34,9 +35,12 @@ function OurWorks() {
                     <img className='img_1' src={suvToshi}  />
                 </li>
             </ul>
-            <button className='ourWorks_btn'>See more  
-                <i className="fa-solid fa-arrow-right"></i>
-            </button>
+
+            <Link className='ourWorks_btn2' to="/Partfolio">
+                <button className='ourWorks_btn'>See more  
+                    {/* <i className="fa-solid fa-arrow-right"></i> */}
+                </button>
+            </Link>
         </div>
     </section>
   )
