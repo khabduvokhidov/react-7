@@ -8,9 +8,9 @@ import Order from './pages/Order.jsx';
 import Partfolio from "./pages/Partfolio.jsx";
 import PaidCursor from "./pages/PaidCursor.jsx"
 import Settings from "./pages/Setings.jsx"
+import YouWin from './pages/YouWin.jsx';
 
 import './steyls/App.css';
-import Chat from './pages/Chat.jsx';
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
             <Route path="/PaidCursor" component={PaidCursor} />
             <Route path="/Register" component={Register} /> 
             <Route path="/Settings" component={Settings} />
-            {/* <Chat /> */}
- 
+            <Route path="/YouWin" component={YouWin} />
+            
           </Switch>
   
         </div>
