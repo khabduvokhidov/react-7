@@ -2,7 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import NavbarTwo from '../components/NavbarTwo'
 import ozm from "../images/ozm.jpg"
+import Chat from "../components/Chat.jsx"
+import Carta from '../components/Carta'
+import Email from "../components/Email.jsx"
+
 import "../steyls/settings.css"
+
 
 function Setings() {
     return (
@@ -11,7 +16,9 @@ function Setings() {
         <section className='settings'>
           <div className="container">
             <div className="settings_box">
-                <p>Back</p>
+                <Link to="/Order">
+                    <p>Back</p>
+                </Link>
                 <h1>Settings</h1>
             </div>
 
@@ -31,6 +38,25 @@ function Setings() {
               </div>
 
             </div>
+            
+            <div className="settings_nav_link">
+                <a href="#1">
+                    login
+                </a>
+
+                <a href="#2">
+                    carta
+                </a>
+
+                <a href="#3">
+                    chat
+                </a>
+            </div>
+
+            <Chat />
+            <Carta />
+            <Email />
+
           </div>
         </section>
     </>
