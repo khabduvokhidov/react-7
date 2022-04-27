@@ -19,7 +19,7 @@
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .service_smile_box{
@@ -60,10 +60,13 @@
     width: 100%;
 }
 
+.service_btn2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .service_btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
     padding: 7px 17px;
     border: 1px solid transparent;
@@ -72,6 +75,7 @@
     border-radius: 3px;
     cursor: pointer;
     transition: .3s;
+    margin-bottom: 20px;
 }
 
 .service_btn:hover{
