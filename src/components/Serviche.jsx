@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import "../steyls/service.css"
 
 function Serviche() {
@@ -36,8 +38,10 @@ function Serviche() {
           </div>
 
         </div>
+          <Link className='service_btn2' to="/Register">
+            <button className='service_btn'>Order a project</button>
+          </Link>
 
-          <button className='service_btn'>Order a project</button>
       </div>
     </section>
   )
