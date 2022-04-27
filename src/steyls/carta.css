@@ -1,0 +1,129 @@
+.CreditCarta{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carta_box{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #0000000D;
+    box-shadow: 10px 30px 60px #00000014;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.carta_title label{
+    line-height: 30px;
+}
+
+.carta_title label h5{
+    font-size: 12px;
+    color: #515151;
+}
+
+.carta_title label input{
+    width: 330px;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.lableFlex{
+    display: flex;
+    align-items: center;
+}
+
+.lableFlex span{
+    padding: 0 10px;
+}
+
+.lableFlex span input{
+    width: 150px;
+}
+
+
+@media  (max-width:1120px){
+    .container{
+      width: 1020px;
+      margin: 0 auto;
+    }
+
+    
+  }
+  
+  @media screen  and (max-width:1000px){
+    
+    .container{
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    .carta_title label input{
+        width: 100%;
+    }
+
+  }
+  
+  
+  @media screen  and (max-width:900px){
+    
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+  }
+  
+  @media screen  and (max-width:800px){
+    
+    .container{
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:700px){
+    
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen  and (max-width:600px){
+    
+    .container{
+      width: 500px;
+      margin: 0 auto;
+    }
+  
+  }
+  
+  
+  @media screen  and (max-width:500px){
+    
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+    
+    .carta_title label input{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .lableFlex span input{
+        width: 100%;
+        margin: 0;
+    }
+  }
+  
+  @media screen  and (max-width:400px){
+    
+    .container{
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
