@@ -106,8 +106,13 @@ function Header() {
             <h1>We provide you quality service on 3D Modelling</h1>
             <p>We have been providing reliable customer service for several years</p>
             <div className="main_btn_box">
-              <button>Order a project</button>
-              <button className="btn_main_right">Our portfolio</button>
+              <Link to="/Register">
+                <button>Order a project</button>
+              </Link>
+
+              <Link to="/Partfolio">
+                <button className="btn_main_right">Our portfolio</button>
+              </Link>
             </div>
           </div>
         </div>
