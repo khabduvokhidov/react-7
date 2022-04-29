@@ -458,6 +458,10 @@
     .head{
         width: 500px;
     }
+
+    .upload_img{
+        margin: 0px;
+    }
   }
   
   @media screen  and (max-width:700px){
@@ -488,7 +492,8 @@
     }
 
     .deadline_input{
-        width: 80%;
+        width: 72%;
+        margin-left: 20px;
     }
 
     .deadline_number{
@@ -526,6 +531,11 @@
         padding: 10px 20px;
         margin: 0 10px;
     }
+
+    .deadline_input{
+        width: 92%;
+        margin-left: 20px;
+    }
   }
   
   
@@ -543,15 +553,19 @@
     .menu-bar2{
         display: none;
     }
+
+    .upload_browse{
+        text-align: center;
+    }
   
   }
   
   @media screen  and (max-width:400px){
     
     .container{
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
     }
 
-
+   
   }

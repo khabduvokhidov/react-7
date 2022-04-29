@@ -211,7 +211,22 @@
   @media (max-width:400px){
     
     .container{
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
     }
-  }
+
+    .about_title h1{
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1.50px;
+    }
+
+    .result{
+      margin-bottom: 40px;
+    }
+
+    .results_nav{
+      margin-bottom: 30px;
+    }
+
+}

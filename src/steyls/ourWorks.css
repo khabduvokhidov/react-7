@@ -152,4 +152,13 @@
     .Main_li_1{
       margin: -20px 0px;
     }
+
+    .ourWorks {
+      margin-bottom: 50px;
+    }
+
+    .ourWorks_text{
+      font-size: 32px;
+      font-weight: 600;
+    }
   }

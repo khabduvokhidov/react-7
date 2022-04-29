@@ -110,7 +110,7 @@ function Header() {
                 <button>Order a project</button>
               </Link>
 
-              <Link to="/Partfolio">
+              <Link  to="/Partfolio">
                 <button className="btn_main_right">Our portfolio</button>
               </Link>
             </div>

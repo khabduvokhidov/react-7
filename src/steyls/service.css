@@ -164,10 +164,27 @@
   
 @media screen  and (max-width:400px){
     
-.container{
-    width: 300px;
-    margin: 0 auto;
-}
+  .container{
+      width: 300px;
+      margin: 0 auto;
+  }
 
-  
+  .service_text{
+    margin-bottom: 50px;
+  }
+
+  .service_text h1{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1.50px;
+  }
+
+  .service_box{
+    margin-bottom: 10px;
+  }
+
+  .service_btn{
+    margin-bottom: 0;
+  }
+
 }
