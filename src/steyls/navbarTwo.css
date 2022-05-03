@@ -168,8 +168,12 @@
 }
 
 .container-mobile .mobile-menu-icon{
+    border: 2px solid #fff;
+    border-radius: 5px;
     font-size: 25px;
-    padding: 5px 15px;
+    padding: 5px 115px;
+    background: #dcd9d926;
+    margin-right: 20px;
 }
 
 .container-mobile.mobile-menu-icon:hover{
@@ -216,8 +220,6 @@ nav .container-mobile{
     margin-bottom: 10px;
     letter-spacing: 2px;
     background: #dcd9d926;
-    padding-right: 25px;
-    padding-left: 0px;
     font-weight: bold;
     transition: .5s;
 }
@@ -371,4 +373,10 @@ nav .container-mobile{
       width: 90%;
       margin: 0 auto;
     }
+
+    .container-mobile .mobile-menu-icon{
+        padding: 5px 95px;
+        /* margin-right: 20px; */
+    }    
+
   }

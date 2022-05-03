@@ -47,7 +47,7 @@
 
 .nav_link{
     color: #ffffff80;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     transition: .3s;
 }
 
@@ -163,8 +163,6 @@ nav .container-mobile{
     margin-bottom: 10px;
     letter-spacing: 2px;
     background: #dcd9d926;
-    padding-right: 25px;
-    padding-left: 0px;
     font-weight: bold;
 }
 
@@ -274,5 +272,10 @@ nav .container-mobile{
     .container{
       width: 90%;
       margin: 0 auto;
+    }
+
+    .container-mobile .nav_box .btn_nav{
+        padding: 10px 55px;
+        font-size: 20px;
     }
   }
