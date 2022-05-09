@@ -2,7 +2,6 @@ import React from 'react'
 import "../steyls/register.css"
 import { Link } from 'react-router-dom'
 import back from "../images/dizipro.png"
-import Order from "../pages/Order"
 
 function Register() {
   return (

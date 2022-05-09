@@ -1,4 +1,5 @@
 import React from 'react'
+import { SRLWrapper } from "simple-react-lightbox";
 import { Link } from 'react-router-dom'
 import Dengiz from "../images/dengiz.png"
 import shahar from "../images/shahar.png"
@@ -10,6 +11,7 @@ function OurWorks() {
     <section className="ourWorks">
         <div className="container">
             <h1 className='ourWorks_text'>Our works</h1>
+          <SRLWrapper>
             <ul className="Main_ul_1">
                 <li className="Main_li_1">
                     <img className='img_1' src={shahar}  />
@@ -35,7 +37,8 @@ function OurWorks() {
                     <img className='img_1' src={suvToshi}  />
                 </li>
             </ul>
-
+        </SRLWrapper>
+        
             <Link className='ourWorks_btn2' to="/Partfolio">
                 <button className='ourWorks_btn'>See more  
                     {/* <i className="fa-solid fa-arrow-right"></i> */}
