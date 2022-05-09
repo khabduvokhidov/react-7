@@ -376,7 +376,10 @@ nav .container-mobile{
 
     .container-mobile .mobile-menu-icon{
         padding: 5px 95px;
-        /* margin-right: 20px; */
-    }    
+    }
+    
+    .nav-list-mobile li .nav_link2{
+        margin: 1px 0;
+    }
 
   }
