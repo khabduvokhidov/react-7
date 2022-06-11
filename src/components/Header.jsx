@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useInfoContext } from "../context/Context";
 import Languages from "../languages/Languages.jsx";
-
 import "../steyls/header.css"
 import Navbar from "./Navbar";
 import NavbarTwo from "./NavbarTwo";

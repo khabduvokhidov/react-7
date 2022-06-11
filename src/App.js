@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route} from "react-router-dom";
 import { InfoProvider } from "./context/Context.jsx";
+import { BrowserRouter, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home.jsx"
 import Register from "./pages/Register.jsx";
 import Profile from "./pages/Profile.jsx"
