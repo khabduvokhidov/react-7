@@ -23,6 +23,7 @@
     backdrop-filter: blur(5px);
     background: #00000066;
     width: 100%;
+    z-index: 999;
 }
 
 .nav{
@@ -39,12 +40,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .navbar .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .nav_list{
